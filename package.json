@@ -1,0 +1,15 @@
+{
+  "name": "research-paper-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,green \"pnpm --filter @research-assistant/api dev\" \"pnpm --filter @research-assistant/web dev\"",
+    "build": "pnpm --recursive run build",
+    "test:chat": "node scripts/test_chat_stream.mjs",
+    "benchmark": "node tests/multi_paper_benchmark.test.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
