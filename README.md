@@ -209,16 +209,6 @@ Overall Benchmark Result: ALL TESTS PASSED (100% GROUNDED)
 
 ---
 
-## 🎓 College Viva Voce Defense
-
-A detailed defense guide prepared specifically for final-year engineering viva panels is available in [`docs/VIVA_DEFENSE_GUIDE.md`](docs/VIVA_DEFENSE_GUIDE.md):
-- **30-Second Elevator Pitch**
-- **Core Engineering Justifications ("The Why")**
-- **The RAG Triad & Mathematical Formulations**
-- **20 Likely Viva Examiner Questions & Model Answers**
-- **Step-by-Step 3-Minute Live Viva Demo Script**
-
----
 
 ## 📄 License
 MIT License. Developed as a College Final-Year Engineering Project.
